@@ -1,0 +1,51 @@
+*{
+	padding:5px;
+	margin:0px;
+}
+
+div{
+	box-sizing:border-box;
+	background-color:yellow;
+	border:2px solid black;
+	margin:1.5%;
+	padding:0px;
+	padding-left:10px;
+}
+
+h1{
+	text-align:center;
+}
+
+h2{
+	background-color:red;
+	font:white;
+	margin:0;
+	width:150px;
+	border-bottom:2px solid black;
+	border-left:2px solid black;
+	float:right;
+	margin-left:100%;
+	margin-bottom:8px;
+}
+
+@media screen and (min-width:768px){
+	div{
+		display:inline-block;
+		width:46%;
+	}
+	
+	.lastdiv{
+		width:95%
+	}
+}
+
+@media screen and (min-width:992px){
+	div{
+		display:inline-block;
+		width:30%;
+	}
+	
+	.lastdiv{
+		width:30%
+	}
+}
